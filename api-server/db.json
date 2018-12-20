@@ -1,0 +1,43 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "第一篇文章",
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "title": "第二篇文章",
+      "authorId": 1
+    },
+    {
+      "id": 3,
+      "title": "第三篇文章",
+      "authorId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "对第一篇文章的评论",
+      "articleId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "body": "对第二篇文章的评论",
+      "articleId": 2,
+      "authorId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "第一个用户"
+    },
+    {
+      "id": 2,
+      "name": "第二个用户"
+    }
+  ]
+}
